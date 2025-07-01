@@ -1,0 +1,11 @@
+,Model,params,mean_test_accuracy,mean_test_precision,mean_test_recall,mean_test_f1
+3,LogisticRegression,"{'C': 0.25, 'class_weight': None, 'max_iter': 550, 'penalty': 'l1', 'solver': 'saga'}",0.7836561743341404,0.764551235469202,0.8198547215496369,0.7910806510143218
+11,LogisticRegression,"{'C': 0.25, 'class_weight': None, 'max_iter': 600, 'penalty': 'l1', 'solver': 'saga'}",0.7835351089588378,0.7643800676309975,0.8198547215496369,0.7909875217155625
+19,LogisticRegression,"{'C': 0.25, 'class_weight': None, 'max_iter': 650, 'penalty': 'l1', 'solver': 'saga'}",0.7836561743341404,0.764551235469202,0.8198547215496369,0.7910806510143218
+9,LogisticRegression,"{'C': 0.25, 'class_weight': None, 'max_iter': 600, 'penalty': 'l1', 'solver': 'liblinear'}",0.7838983050847457,0.7650099091117735,0.8196125907990315,0.7912203394162378
+57,LogisticRegression,"{'C': 0.75, 'class_weight': None, 'max_iter': 600, 'penalty': 'l1', 'solver': 'liblinear'}",0.7838983050847458,0.7650658213214437,0.8196125907990315,0.7912354888820737
+193,RandomForest,"{'criterion': 'log_loss', 'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 3, 'n_estimators': 200}",0.8502421307506053,0.8419917994567783,0.8624697336561743,0.8474560865766856
+196,RandomForest,"{'criterion': 'log_loss', 'max_depth': None, 'max_features': 'log2', 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 200}",0.8502421307506053,0.8419917994567783,0.8624697336561743,0.8474560865766856
+166,RandomForest,"{'criterion': 'log_loss', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 3, 'n_estimators': 200}",0.8487893462469736,0.8395127173614523,0.8624697336561743,0.8461383063842461
+163,RandomForest,"{'criterion': 'log_loss', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}",0.8487893462469736,0.8395127173614523,0.8624697336561743,0.8461383063842461
+169,RandomForest,"{'criterion': 'log_loss', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 4, 'n_estimators': 200}",0.8487893462469736,0.8395127173614523,0.8624697336561743,0.8461383063842461
