@@ -1,4 +1,3 @@
-````markdown
 # 🧠 Customer Churn Prediction & Retention System
 
 A machine learning project to predict telecom customer churn and explain the key factors influencing that risk — presented via an interactive, Streamlit-powered dashboard.
