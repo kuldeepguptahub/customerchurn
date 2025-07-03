@@ -9,7 +9,6 @@ A machine learning project to predict telecom customer churn and explain the key
 - Predict customer churn probability with high recall
 - Understand what drives churn at an individual level
 - Build an explainable, lightweight web app using Streamlit
-- Package it as a professional, portfolio-grade ML project
 
 ---
 
@@ -40,7 +39,7 @@ pip install -r requirements.txt
 ### 3. Launch Streamlit App
 
 ```bash
-streamlit run app/app.py
+streamlit run app.py
 ```
 
 ---
