@@ -27,8 +27,8 @@ A machine learning project to predict telecom customer churn and explain the key
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/customer-churn-app.git
-cd customer-churn-app
+git clone https://github.com/kuldeepnethues/customerchurn.git
+cd customerchurn
 ````
 
 ### 2. Install Dependencies
@@ -59,7 +59,7 @@ streamlit run app/app.py
 
 Here’s a sample prediction with SHAP-based explanation:
 
-![Churn Prediction Output](path/to/your/screenshot.png)
+![Churn Prediction Output](https://github.com/kuldeepnethues/customerchurn/blob/main/sample_churn_prediction.png)
 
 > In this case, the customer is predicted to churn with 72.92% probability — largely influenced by short tenure, monthly contract, and lack of online security.
 
