@@ -28,7 +28,7 @@ def create_df(user_input: dict) -> pd.DataFrame:
     if missing:
         raise ValueError(f'Missing Data in Input: {[missing]}')
     
-    input_df =  pd.DataFrame(user_input, columns=expected_columns)
+    input_df =  pd.DataFrame(user_input, columns=expected_columns, index=[0])
 
     return input_df
 
