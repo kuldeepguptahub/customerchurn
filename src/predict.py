@@ -27,4 +27,4 @@ def make_predictions(input_array: np.ndarray, model_path: str) -> str:
     except Exception as e:
         raise ValueError('Error during prediction.') from e
     
-    return f'Prediction: {"Churn" if prediction[0] == 1 else "Not Churn"}, Probability: {probability[0][1]:.2%}'
+    return f'Prediction: {"Churn" if prediction[0] == 1 else "Not Churn"}, Churn Probability: {probability[0][1]:.2%}'

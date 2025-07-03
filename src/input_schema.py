@@ -29,7 +29,9 @@ def create_df(user_input: dict) -> pd.DataFrame:
         raise ValueError(f'Missing Data in Input: {[missing]}')
     
     input_df =  pd.DataFrame(user_input, columns=expected_columns, index=[0])
-
+    input_df['IS_STREAMING'] = ((input_df['STREAMINGMOVIES'] == 'Yes') | (input_df['STREAMINGTV'] == 'Yes')).astype(int)
+    input_df = input_df.drop(columns=['STREAMINGTV', 'STREAMINGMOVIES'])
+    
     return input_df
 
 
