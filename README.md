@@ -72,4 +72,4 @@ Here’s a sample prediction with SHAP-based explanation:
 
 ## 📄 License
 
-MIT License © kuldeepnethues
+MIT License © kuldeepguptahub
